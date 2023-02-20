@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategrey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    border: 2px solid gold;
+    color: gold;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    padding: 1.25rem 0;
+    margin-bottom: 6.25rem;
+    text-transform: uppercase;
+}
+.go_to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.go_to button{
+    border: 1px solid gold;
+    border-radius: .625rem;
+    padding: .625rem 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: gold;
+    font-size: .9375rem;
+    font-weight: 700;
+}
+
